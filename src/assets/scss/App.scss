@@ -1,0 +1,39 @@
+@import './variables';
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $primary-color;
+    color: $text-color;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid $light-color;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    min-height: 15vh;
+}
+
+.items-grid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 3rem;
+    margin-top: 5rem;
+}
+
+@media #{$small}{
+    header{
+        padding: 1rem 2rem;
+    }
+
+}

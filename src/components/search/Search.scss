@@ -1,0 +1,29 @@
+@import '../../assets/scss/variables';
+
+// i{
+//     position: absolute;
+//     left: 7%;
+// }
+.search{
+    background-color: $light-color;
+    padding: 1rem  3.4rem;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    width: 50%;
+}
+
+@media #{$small}{
+    // i{
+    //     left: 10%;
+    // }
+    .search{
+        width: 60%;
+    }
+}
+
+@media (#{$medium}) and (#{xlarge}){
+    // i{
+    //     left: 3%;
+    // }
+}
