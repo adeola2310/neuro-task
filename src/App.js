@@ -35,6 +35,7 @@ function App() {
           const addItemToList = ()=>{
             const newItem = items.concat({ name });
             setItems(newItem);
+            setName('Burger');
           }
 
         const itemData = searchText ? searchedItems : items;
