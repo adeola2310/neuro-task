@@ -22,8 +22,9 @@
 }
 @media #{$small}{
 .card{
+    width: 90%;
     & h5{
-        margin: .4rem;
+        margin: 1rem;
     }
 }
 }

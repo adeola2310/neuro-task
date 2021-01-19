@@ -3,7 +3,7 @@ import './Button.scss';
 
 const Button = ({addItemToList})=>{
     return (
-        <button className="btn btn-white btn-animate" onClick={()=>addItemToList()}>
+        <button onClick={()=>addItemToList()}>
             <span>+</span>
         </button>
     )

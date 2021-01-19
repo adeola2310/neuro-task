@@ -8,7 +8,7 @@ const Footer = ()=>{
       };
     return (
         <footer>
-        <p>© {getYear()} Neurocat</p>
+        <p>© {getYear()} Built by Adeola</p>
          <a href='https://github.com/adeola2310/neuro-task'>
         <i className='fab fa-github'></i>
       </a>
