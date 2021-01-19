@@ -12,6 +12,7 @@ button{
     font-weight: bold;
     &:hover{
         background-color: $light-color;
+        color: $text-color-dark;
     }
 }
 
