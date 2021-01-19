@@ -9,7 +9,7 @@ const Footer = ()=>{
     return (
         <footer>
         <p>© {getYear()} Neurocat</p>
-         <a href='https://github.com/kadetXx/shoppies'>
+         <a href='https://github.com/adeola2310/neuro-task'>
         <i className='fab fa-github'></i>
       </a>
         </footer>

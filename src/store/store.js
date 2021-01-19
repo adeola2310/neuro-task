@@ -5,7 +5,7 @@ export const data = [
     },
     {
         "id": 2,
-        "name": "Cheese",
+        "name": "Coffee",
     },
     {
         "id": 3,
@@ -13,14 +13,10 @@ export const data = [
     },
     {
         "id": 4,
-        "name": "Milo",
+        "name": "Orange",
     },
     {
         "id": 5,
         "name": "Cake",
-    },
-    {
-        "id": 6,
-        "name": "BeanCake",
     }
 ];

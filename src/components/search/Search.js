@@ -1,12 +1,13 @@
 import React  from 'react';
 import './Search.scss';
 
-const Search = ({searchText, handleChange})=>{
+const Search = ({searchText, handleChange, itemData, result})=>{
 
+
+   
 
     return (
-        <React.Fragment>
-        {/* <i className="fas fa-search"/> */}
+        <div>
         <input
         className="search"
         aria-label='Search item'
@@ -17,7 +18,13 @@ const Search = ({searchText, handleChange})=>{
         value={searchText}
         onChange={handleChange}
         />
-        </React.Fragment>
+        {
+            result && 
+            <div className="results">
+            <p>{itemData?.length} results found for "{searchText}"</p>
+            </div>
+        }
+        </div>
        
     )
 }

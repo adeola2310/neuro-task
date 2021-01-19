@@ -3,8 +3,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5rem;
-    border-top: 1px solid $light-color;
+    padding: 1rem 1rem;
+    // border-top: 1px solid $light-color;
+    border-top: 1px solid $color-gray;
+
 
     i{
         color: $light-color;

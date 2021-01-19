@@ -1,29 +1,27 @@
 @import '../../assets/scss/variables';
 
-// i{
-//     position: absolute;
-//     left: 7%;
-// }
 .search{
-    background-color: $light-color;
-    padding: 1rem  3.4rem;
+    background-color: $primary-color;
+    padding: 1rem  1rem;
     outline: 0;
     border: 0;
     border-radius: 3px;
-    width: 50%;
+    width: 60vw;
+    color: $light-color;
+    &:focus{
+        border: 1px solid $color-gray;
+    }
+    &::placeholder{
+       color: #F0F4F4;
+    }
 }
-
-@media #{$small}{
-    // i{
-    //     left: 10%;
-    // }
-    .search{
-        width: 60%;
+.results{
+    width: 40vw;
+    background-color: $primary-color;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    & p{
+    color: $light-color;
     }
 }
 
-@media (#{$medium}) and (#{xlarge}){
-    // i{
-    //     left: 3%;
-    // }
-}
