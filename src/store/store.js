@@ -14,9 +14,5 @@ export const data = [
     {
         "id": 4,
         "name": "Orange",
-    },
-    {
-        "id": 5,
-        "name": "Cake",
     }
 ];

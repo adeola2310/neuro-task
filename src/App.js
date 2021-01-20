@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './assets/scss/App.scss';
 import Button from './components/button/Button';
-import Footer from './components/footer/Footer';
 import ItemCard from './components/itemCard/itemCard';
 import Search from './components/search/Search';
 import {data} from './store/store';
@@ -54,7 +53,7 @@ function App() {
           }
 
           const addItemToList = ()=>{
-            const newItem = items.concat({ name });
+            const newItem = items.concat({name});
             setItems(newItem);
             setName('Burger');
           }
@@ -76,7 +75,6 @@ function App() {
                     />
                   </header>
                   <main>
-                  
                        <div className="items-grid">
                        {
                          itemData.map((item)=>(
@@ -87,7 +85,8 @@ function App() {
                          ))
                        }
                      </div>
-                 
+
+                      {/*If the item searched can't be found this div should be displayes*/}
                     {
                         emptyState && 
                        <div className="empty">
@@ -96,7 +95,6 @@ function App() {
                        </div>
                       }
                   </main>
-                  <Footer/>
                 </div>
               );
 }
